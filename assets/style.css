@@ -69,3 +69,57 @@ h5,h6{
 	font-size: 25px;
 	font-weight: bold;
 }
+
+/* Header Section */
+
+.hero-section {
+    background-image: url(../assets/images/patrick-hendry-39127-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 670px; /*originally 670px */
+    /* position: relative;
+    z-index: 1; */
+}
+
+.hero-section h1 {
+	color: #fff;
+}
+
+.hero-section a {
+    color: yellow;
+}
+
+#hero-text {
+	padding-top: 280px;
+}
+.about-section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.about-image {
+	width: 100%;
+}
+
+/* Portfolio Section */
+#portfolio {
+	padding-top: 80px;
+    background-color:#f7f7f7;
+    padding-bottom: 80px;
+}
+
+.align-center {
+	text-align: center;
+}
+
+#portfolio-heading {
+    padding-bottom: 20px;
+}
+
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
