@@ -73,13 +73,14 @@ h5,h6{
 /* Header Section */
 
 .hero-section {
-    background-image: url(../assets/images/patrick-hendry-39127-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    height: 670px; /*originally 670px */
+    background-color: #303133;
+    /* background-image: url(../assets/images/patrick-hendry-39127-unsplash.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: center center; */
+    /* -webkit-background-size: cover; */
+    /* background-size: cover; */
+    height: 300px; /*originally 670px */
     /* position: relative;
     z-index: 1; */
 }
@@ -93,7 +94,8 @@ h5,h6{
 }
 
 #hero-text {
-	padding-top: 280px;
+    /* padding-top: 280px; */
+    padding-top: 100px;
 }
 .about-section {
 	padding-top: 80px;
