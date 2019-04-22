@@ -1,127 +1,95 @@
 /* General Styling */
 
-*{
-	padding: 0;
-	margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background-color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 23px;
-    color: #555;
-    font-weight: 400;
-    position: relative;
-    overflow-x: hidden;
+body {
+  background-color: #f6e8ea;
+  color: #22181c;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  position: relative;
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Playfair Display', serif;
-    -webkit-font-smoothing:antialiased;
-	color: #333;
-}
-h1{
-    font-size: 52px;
-    font-weight: 800;
-    line-height: 1.1;
-    margin: 0 0 10px;
-    letter-spacing: -0.07em;
-}
-h2{
-    font-size: 24px;
-    color: #303133;
-    margin: 0 0 8px;
-    text-transform: uppercase;
-    font-weight: 800;
-    line-height: 1;
-    letter-spacing: -0.04em;
-}
-h3,h4{
-    margin: 0 0 10px;
-    font-weight: 600;
-    line-height: 1.4;
-    color: #303133;
-    letter-spacing: -0.01em;
-}
-h3{
-    font-size: 17px;
-}
-h4{
-    font-size: 15px;
-}
-h5,h6{
-    font-size: 14px;
-    margin: 0 0 10px;
+h2 {
+  margin: 1em;
 }
 
-
-
-/* Header Section */
-   .header-section{
-    background-color: transparent;
-    width: 100%;
-    height: 80px;
-    padding: 10px 0;
+h3 {
+  font-size: 1.6em;
+  margin: 0.5em;
 }
 
-.navbar-brand {
-	font-size: 25px;
-	font-weight: bold;
+p {
+  font-size: 1.4em;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+#portfolio img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+/* Disable grayscale on hover */
+#portfolio img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
 }
 
 /* Header Section */
-
-.hero-section {
-    background-color: #303133;
-    /* background-image: url(../assets/images/patrick-hendry-39127-unsplash.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    /* background-position: center center; */
-    /* -webkit-background-size: cover; */
-    /* background-size: cover; */
-    height: 300px; /*originally 670px */
-    /* position: relative;
-    z-index: 1; */
+#navigation {
+  padding-top: 25px;
+}
+.navi {
+  padding: 0px;
+}
+/* Jumbotron */
+.jumbotron {
+  margin: 90px;
+}
+.display-4 {
+  font-size: 3em;
+}
+.display-4 span {
+  color: #dc2c4c;
+  font-weight: bold;
 }
 
-.hero-section h1 {
-	color: #fff;
+/* Portfolio */
+.portfolio-body {
+  padding: 50px 0px;
 }
 
-.hero-section a {
-    color: yellow;
+#about {
+  margin-bottom: 50px;
 }
 
-#hero-text {
-    /* padding-top: 280px; */
-    padding-top: 100px;
-}
-.about-section {
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
-
-.about-image {
-	width: 100%;
-}
-
-/* Portfolio Section */
-#portfolio {
-	padding-top: 80px;
-    background-color:#f7f7f7;
-    padding-bottom: 80px;
-}
-
-.align-center {
-	text-align: center;
-}
-
-#portfolio-heading {
-    padding-bottom: 20px;
-}
+/* #contact-head .row {
+  border-top: solid 2px #222;
+  padding: 3.2em 0;
+} */
 
 #contact {
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background-color: #dc2c4c;
+  margin-top: 200px;
+  height: 500px;
+}
+
+#contact img {
+  margin: 100px;
+}
+
+#contact a {
+  color: #22181c;
 }
